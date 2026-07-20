@@ -1,4 +1,36 @@
-# FAIR-SSF-Opt
+# AI-Assisted Optimisation of Enzyme Production from Cereal Food Residues
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Software License: MIT](https://img.shields.io/badge/Software%20License-MIT-green.svg)](LICENSE)
+[![Dataset License: CC BY 4.0](https://img.shields.io/badge/Dataset%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE_DATA.md)
+[![Dataset DOI](https://img.shields.io/badge/DOI-10.17632%2Fk2xv3yss8m.2-blue.svg)](https://doi.org/10.17632/k2xv3yss8m.2)
+[![Project Status](https://img.shields.io/badge/status-functional%20research%20prototype-orange.svg)](#project-status)
+
+## FAIR-Aligned, Uncertainty-Aware Machine Learning for Circular Enzyme Production via Solid-State Fermentation
+
+> **Research question:**  
+> Can FAIR-aligned machine-learning models predict enzyme production from cereal food residues and identify promising solid-state fermentation conditions for circular bioprocessing?
+
+FAIR-SSF-Opt is a research-oriented machine-learning prototype for studying enzyme production from cereal residues, food-waste-derived substrates, and agro-industrial side streams through fungal solid-state fermentation.
+
+The repository demonstrates an end-to-end workflow that begins with a real literature-derived Excel database and continues through data preservation, data cleaning, FAIR-oriented documentation, cohort construction, feature engineering, leakage-aware validation, model comparison, uncertainty estimation, result reporting, and an interactive Streamlit dashboard.
+
+The project was designed as a portfolio prototype for research at the intersection of:
+
+- artificial intelligence and machine learning;
+- FAIR research data management;
+- circular food production;
+- food and bioprocess systems;
+- solid-state fermentation;
+- agricultural and food-waste valorisation;
+- uncertainty-aware modelling;
+- process-data harmonisation;
+- scientific reproducibility;
+- decision-support and future process optimisation.
+
+The main scientific lesson of the prototype is not simply that a Random Forest can be trained. The more important finding is that model quality depends strongly on how experimental data are structured, documented, grouped, and validated. A model may appear accurate when records from the same experiment or scientific article are split randomly between training and test sets. FAIR-SSF-Opt therefore uses group-aware validation to test whether the model transfers to unseen experiments and unseen scientific articles.
+
+---
 
 ## FAIR-Aligned AI Benchmarking for Circular Enzyme Production from Cereal Residues
 
