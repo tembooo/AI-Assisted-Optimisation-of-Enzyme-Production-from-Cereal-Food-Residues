@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fair-ssf-opt"
+version = "0.1.0"
+description = "FAIR-aligned AI benchmarking for solid-state fermentation enzyme production from cereal residues."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Arman Golbidi"}]
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=2.0",
+  "scikit-learn>=1.5",
+  "matplotlib>=3.9",
+  "joblib>=1.4",
+  "streamlit>=1.37",
+  "plotly>=5.23",
+  "PyYAML>=6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

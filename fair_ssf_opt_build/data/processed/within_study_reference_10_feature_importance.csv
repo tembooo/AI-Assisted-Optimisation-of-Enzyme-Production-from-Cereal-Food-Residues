@@ -1,0 +1,31 @@
+feature,importance
+enzyme=β-xylosidase,0.322375101597298
+enzyme=xylanase,0.16405225108496216
+substrate=mixture (wheat bran ; cottonseed meal),0.036027597389566526
+organism=Paecilomyces sp. SF 021,0.03437141478611415
+organism_genus=Paecilomyces,0.031224453593372642
+incubation_hours,0.027089061282488607
+organism_genus=Botryosphaeria,0.025520291325381018
+pretreatment_ground_or_milled,0.024479031837008093
+organism=Botryosphaeria sp. AM 01,0.024363094419483818
+enzyme=β-glucosidase,0.022859380942442623
+optimization_category=OFAT,0.022200234448735427
+enzyme=CMCase,0.022012760376617806
+organism=Colletotrichum crassipes CSY 02,0.019775447387814536
+organism_genus=Colletotrichum,0.01810510000336354
+organism_genus=Ustilaginoidea,0.017063162463457973
+optimization_category=none,0.016137778487961323
+organism_genus=Saccharicola,0.014725760915153947
+organism=Coniella petrakii PM 02,0.013788819795535846
+organism=Saccharicola sp. EJC 04,0.012097371498875508
+organism_genus=Coniella,0.00997065416282148
+substrate=mixture (oat ; sugarcane bagasse),0.00907891133406891
+moisture_content_pct,0.008339678933642217
+organism_genus=Chaetomium,0.0075895781301120995
+organism_genus=Phomopsis,0.007270035755174144
+substrate_family=wheat,0.00708621105179915
+organism=Ustilaginoidea sp. CV 04,0.006574161283688121
+organism=Phomopsis stipata SC 04,0.006481409375942672
+substrate=mixture (wheat bran ; sugarcane bagasse),0.006370538362670178
+organism=Cladosporium cladosporioides PAJ 03,0.006121698643075925
+organism_genus=Cladosporium,0.005989439469348857

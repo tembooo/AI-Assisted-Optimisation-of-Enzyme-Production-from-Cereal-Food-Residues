@@ -1,0 +1,20 @@
+{
+  "title": "Production of enzymes via solid state fermentation from cereals",
+  "version": 2,
+  "doi": "10.17632/k2xv3yss8m.2",
+  "authors": ["Joseph Bourgine", "Dominika Teigiserova", "Marianne Thomsen"],
+  "licence": "CC BY 4.0",
+  "scope": "Literature-derived enzyme production records from cereal and mixed agro-industrial residues under fungal solid-state fermentation.",
+  "records": 487,
+  "experiments": 209,
+  "references": 69,
+  "publication_period": "2010-2019",
+  "repository_url": "https://data.mendeley.com/datasets/k2xv3yss8m/2",
+  "prototype_tasks": [
+    "FAIR-aligned data audit and harmonisation",
+    "within-study multi-enzyme yield prediction",
+    "cross-study xylanase transportability benchmark",
+    "group-bootstrap uncertainty estimation",
+    "interactive decision-support demonstration"
+  ]
+}

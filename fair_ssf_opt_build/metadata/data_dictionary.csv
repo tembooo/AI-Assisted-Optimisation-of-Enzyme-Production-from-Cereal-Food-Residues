@@ -1,0 +1,20 @@
+field,role,description,unit_or_format,source,missing_handling
+XP n°,identifier,Experiment identifier allocated by dataset authors,integer,source workbook,required for within-study grouping
+Substrate,input,Nature of cereal or mixed residue substrate,text,source workbook,retain original label and derive substrate family
+Organism,input,Fungal strain or co-culture used in SSF,text,source workbook,retain original label and derive genus/co-culture flag
+Enzyme,output context,Enzyme whose activity was reported,text,source workbook,required
+Yield,target,Reported enzyme activity,numeric,source workbook,exclude nonnumeric NA values
+Unit,target context,Measurement unit for enzyme activity,text,source workbook,never combine incomparable units without explicit harmonisation
+Incubation time (hrs),process condition,Time at which yield was measured,hours,source workbook,encode missing as unavailable and preserve original value
+Pretreatment,process condition,Substrate treatment before fermentation,text,source workbook,derive conservative binary flags
+Nutritive or inducing supplement,process condition,Added inducer nutrient surfactant or medium,text,source workbook,derive conservative supplement flags
+Enhancement or optimization method,method context,Statistical or experimental optimisation method,text,source workbook,map to RSM OFAT Taguchi mixture design none or other
+Parameters,process condition,Semi-structured pH moisture inoculum temperature and agitation details,text,source workbook,parse conservatively and retain raw text
+Notes,context,Complementary information and caveats,text,source workbook,retain for auditing; not used as a default predictive feature
+Date of publication,provenance,Year of source article,YYYY,source workbook,required for temporal description
+Reference,provenance,Reference number linked to references.csv,integer,source workbook,required for group-aware cross-study validation
+yield_value,derived target,Parsed numeric yield,numeric,prepare_data,rows with NA excluded from modelling
+incubation_hours,derived feature,Parsed numeric incubation time,hours,prepare_data,missing encoded separately in feature builder
+experiment_id,derived identifier,Parsed XP number,integer,prepare_data,used as grouping key
+publication_year,derived provenance,Parsed publication year,integer,prepare_data,used as contextual feature
+reference_id,derived provenance,Parsed reference identifier,integer,prepare_data,used as grouping key and never as a predictive feature

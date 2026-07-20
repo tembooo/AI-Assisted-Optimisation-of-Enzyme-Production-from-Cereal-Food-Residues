@@ -1,0 +1,30 @@
+project: FAIR-SSF-Opt
+created_by: Arman Golbidi
+created_on: 2026-07-20
+source:
+  title: Production of enzymes via solid state fermentation from cereals
+  version: 2
+  doi: 10.17632/k2xv3yss8m.2
+  url: https://data.mendeley.com/datasets/k2xv3yss8m/2
+  licence: CC BY 4.0
+  original_format: Microsoft Excel workbook
+transformations:
+  - Exported the Data table sheet to UTF-8 CSV without changing scientific values.
+  - Exported the References and Introduction sheets to separate CSV files.
+  - Parsed yield, incubation time, experiment ID, publication year, and reference ID.
+  - Preserved original categorical and semi-structured text fields.
+  - Extracted selected pH, temperature, moisture-content, and agitation values conservatively.
+validation:
+  within_study:
+    cohort: Reference 10
+    grouping: experiment ID
+    reason: Prevent enzyme outputs from the same experiment appearing in both train and test data.
+  cross_study:
+    cohort: xylanase measured in U/gds
+    grouping: article reference
+    reason: Test generalisation to unseen scientific studies and prevent article-specific leakage.
+limitations:
+  - Literature data are heterogeneous and observational.
+  - Units are not interchangeable across enzyme-unit cohorts.
+  - Semi-structured parameters are incomplete and inconsistently reported.
+  - Predictions are not validated process recommendations.

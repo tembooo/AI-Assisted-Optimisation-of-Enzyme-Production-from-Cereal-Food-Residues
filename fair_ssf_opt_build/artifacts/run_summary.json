@@ -1,0 +1,338 @@
+{
+  "data_profile": {
+    "rows": 487,
+    "numeric_yield_rows": 485,
+    "missing_or_nonnumeric_yield_rows": 2,
+    "experiments": 209,
+    "references": 69,
+    "publication_year_min": 2010,
+    "publication_year_max": 2019,
+    "unique_substrates": 45,
+    "unique_organisms": 111,
+    "unique_enzymes": 34,
+    "unique_units": 6,
+    "numeric_incubation_rows": 458,
+    "top_substrates": [
+      [
+        "wheat bran",
+        103
+      ],
+      [
+        "mixture (wheat bran ; sugarcane bagasse)",
+        56
+      ],
+      [
+        "mixture (wheat bran ; cottonseed meal)",
+        41
+      ],
+      [
+        "rice straw",
+        36
+      ],
+      [
+        "corn stover",
+        32
+      ],
+      [
+        "mixture (oat ; sugarcane bagasse)",
+        32
+      ],
+      [
+        "wheat straw",
+        28
+      ],
+      [
+        "mixture (wheat bran ; sphagnum peat)",
+        28
+      ],
+      [
+        "corn cob",
+        24
+      ],
+      [
+        "mixture (rice straw ; wheat bran)",
+        12
+      ]
+    ],
+    "top_organisms": [
+      [
+        "Co-culture (Trichoderma reesei RUT C-30 ; Aspergillus niger BC-1)",
+        20
+      ],
+      [
+        "Botryosphaeria sp. AM 01",
+        16
+      ],
+      [
+        "Trichoderma asperellum RCK2011 (mutant strain SR1-7)",
+        15
+      ],
+      [
+        "Ustilaginoidea sp. CV 04",
+        12
+      ],
+      [
+        "Cladosporium cladosporioides PAJ 03",
+        12
+      ],
+      [
+        "Phomopsis stipata SC 04",
+        12
+      ],
+      [
+        "Paecilomyces sp. SF 021",
+        12
+      ],
+      [
+        "Ustilaginoidea sp. XYA 04",
+        12
+      ],
+      [
+        "Saccharicola sp. EJC 04",
+        12
+      ],
+      [
+        "Aspergillus lentulus FJ172995",
+        12
+      ]
+    ],
+    "top_enzymes": [
+      [
+        "xylanase",
+        92
+      ],
+      [
+        "CMCase",
+        83
+      ],
+      [
+        "β-glucosidase",
+        74
+      ],
+      [
+        "FPase",
+        61
+      ],
+      [
+        "β-xylosidase",
+        34
+      ],
+      [
+        "laccase",
+        19
+      ],
+      [
+        "phytase",
+        18
+      ],
+      [
+        "protease",
+        15
+      ],
+      [
+        "Mn-peroxidase",
+        13
+      ],
+      [
+        "lignin peroxidase",
+        12
+      ]
+    ],
+    "unit_counts": [
+      [
+        "U/gds",
+        278
+      ],
+      [
+        "U/g",
+        88
+      ],
+      [
+        "U/mL",
+        87
+      ],
+      [
+        "U/g protein",
+        21
+      ],
+      [
+        "nmol [Glu]/ml/min]",
+        7
+      ],
+      [
+        "U/cm²",
+        6
+      ]
+    ],
+    "top_enzyme_unit_cohorts": [
+      {
+        "enzyme": "xylanase",
+        "unit": "U/gds",
+        "rows": 60
+      },
+      {
+        "enzyme": "CMCase",
+        "unit": "U/gds",
+        "rows": 60
+      },
+      {
+        "enzyme": "β-glucosidase",
+        "unit": "U/gds",
+        "rows": 51
+      },
+      {
+        "enzyme": "FPase",
+        "unit": "U/gds",
+        "rows": 35
+      },
+      {
+        "enzyme": "β-xylosidase",
+        "unit": "U/gds",
+        "rows": 30
+      },
+      {
+        "enzyme": "xylanase",
+        "unit": "U/g",
+        "rows": 26
+      },
+      {
+        "enzyme": "FPase",
+        "unit": "U/g",
+        "rows": 19
+      },
+      {
+        "enzyme": "phytase",
+        "unit": "U/g protein",
+        "rows": 17
+      },
+      {
+        "enzyme": "β-glucosidase",
+        "unit": "U/g",
+        "rows": 14
+      },
+      {
+        "enzyme": "CMCase",
+        "unit": "U/mL",
+        "rows": 12
+      },
+      {
+        "enzyme": "laccase",
+        "unit": "U/mL",
+        "rows": 11
+      },
+      {
+        "enzyme": "Mn-peroxidase",
+        "unit": "U/mL",
+        "rows": 11
+      },
+      {
+        "enzyme": "CMCase",
+        "unit": "U/g",
+        "rows": 11
+      },
+      {
+        "enzyme": "lignin peroxidase",
+        "unit": "U/mL",
+        "rows": 10
+      },
+      {
+        "enzyme": "protease",
+        "unit": "U/mL",
+        "rows": 9
+      },
+      {
+        "enzyme": "β-glucosidase",
+        "unit": "U/mL",
+        "rows": 9
+      },
+      {
+        "enzyme": "FPase",
+        "unit": "nmol [Glu]/ml/min]",
+        "rows": 7
+      },
+      {
+        "enzyme": "avicelase",
+        "unit": "U/mL",
+        "rows": 7
+      },
+      {
+        "enzyme": "xylanase",
+        "unit": "U/mL",
+        "rows": 6
+      },
+      {
+        "enzyme": "L-asparaginase",
+        "unit": "U/gds",
+        "rows": 6
+      }
+    ]
+  },
+  "cohorts": {
+    "within_study_reference_10": {
+      "description": "Reference 10 multi-enzyme case; grouped by experiment ID.",
+      "rows": 119,
+      "groups": 30,
+      "best_model": "random_forest",
+      "repeated_group_validation": {
+        "summary": true,
+        "model": "random_forest",
+        "splits": 10,
+        "median_mae": 41.9349167234316,
+        "mean_mae": 44.57071303899538,
+        "q25_mae": 38.5681726725988,
+        "q75_mae": 52.80002877743492,
+        "median_median_ae": 8.910142351507801,
+        "mean_median_ae": 9.754640516265706,
+        "q25_median_ae": 7.510274845996909,
+        "q75_median_ae": 11.75980187466876,
+        "median_rmse": 94.74373094391017,
+        "mean_rmse": 96.53307238668432,
+        "q25_rmse": 78.09645747713176,
+        "q75_rmse": 107.73131071566982,
+        "median_r2": 0.31567128061669236,
+        "mean_r2": 0.20765537734850503,
+        "q25_r2": 0.16454641504222364,
+        "q75_r2": 0.4458983805496217
+      },
+      "group_kfold_oof_metrics": {
+        "mae": 42.13836275799749,
+        "median_ae": 10.055747254809845,
+        "rmse": 98.82890634706793,
+        "r2": 0.28923714364582465
+      }
+    },
+    "cross_study_xylanase_u_gds": {
+      "description": "Cross-study xylanase cohort; grouped by article reference.",
+      "rows": 60,
+      "groups": 16,
+      "best_model": "random_forest",
+      "repeated_group_validation": {
+        "summary": true,
+        "model": "random_forest",
+        "splits": 10,
+        "median_mae": 1478.0294708219533,
+        "mean_mae": 1869.8460590552677,
+        "q25_mae": 886.8715922827016,
+        "q75_mae": 2929.493404198183,
+        "median_median_ae": 1172.1630183936927,
+        "mean_median_ae": 1190.555407808752,
+        "q25_median_ae": 899.1323325511335,
+        "q75_median_ae": 1669.060303464232,
+        "median_rmse": 1903.6278888381241,
+        "mean_rmse": 2708.518129112438,
+        "q25_rmse": 1217.871626818814,
+        "q75_rmse": 4677.710594942667,
+        "median_r2": -0.4502802230385816,
+        "mean_r2": -1.4216713111148755,
+        "q25_r2": -1.7968397762113577,
+        "q75_r2": -0.10626419496972439
+      },
+      "group_kfold_oof_metrics": {
+        "mae": 1186.9250493900581,
+        "median_ae": 626.7444334608247,
+        "rmse": 1910.6712143521274,
+        "r2": -0.2805806422223678
+      }
+    }
+  }
+}

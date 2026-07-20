@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "FAIR-SSF-Opt"
+message: "Please cite both this software prototype and the source Mendeley Data dataset."
+type: software
+authors:
+  - family-names: Golbidi
+    given-names: Arman
+version: 0.1.0
+date-released: 2026-07-20
+license: MIT
+repository-code: "https://github.com/tembooo/fair-ssf-opt"
+references:
+  - type: dataset
+    title: "Production of enzymes via solid state fermentation from cereals"
+    authors:
+      - family-names: Bourgine
+        given-names: Joseph
+      - family-names: Teigiserova
+        given-names: Dominika
+      - family-names: Thomsen
+        given-names: Marianne
+    doi: "10.17632/k2xv3yss8m.2"
+    version: "2"

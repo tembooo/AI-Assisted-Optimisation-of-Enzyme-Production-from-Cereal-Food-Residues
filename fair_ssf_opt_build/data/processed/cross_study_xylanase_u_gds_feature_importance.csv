@@ -1,0 +1,31 @@
+feature,importance
+pretreatment_autoclave_or_sterilize,0.3468471490347293
+incubation_hours,0.05085991799103658
+substrate_family=corn,0.04628009232178448
+temperature_c,0.03769217449387467
+optimization_category=none,0.03621646334348566
+publication_year,0.03173944558523468
+substrate_is_mixture,0.02986236772962319
+organism=Lichtheimia ramosa,0.023836670450847867
+optimization_category=na,0.023423709023846766
+organism_genus=Paecilomyces,0.02034124116071004
+organism=Paecilomyces sp. SF 021,0.019350804886814614
+optimization_category=OFAT,0.01680780113626063
+organism=Colletotrichum crassipes CSY 02,0.01655295650594958
+substrate=mixture (wheat bran ; cottonseed meal),0.014791768839515667
+moisture_content_pct,0.014175237809221126
+ph,0.014131069946371302
+organism_genus=Lichtheimia,0.01312134293680363
+organism_genus=Botryosphaeria,0.012495898303472808
+organism=Botryosphaeria sp. AM 01,0.012213897209124478
+organism_genus=Colletotrichum,0.011845080871568688
+organism=Saccharicola sp. EJC 04,0.010999100129327637
+organism_genus=Coniella,0.009875152916467794
+pretreatment_ground_or_milled,0.008889452001215232
+organism=Coniella petrakii PM 02,0.007276592156408622
+supplement_nitrogen_source,0.007185605885273606
+substrate=rice straw,0.0070439591447765005
+organism_genus=Chaetomium,0.006855161067713249
+substrate_family=wheat,0.006759937163578077
+substrate=mixture (wheat bran ; sugarcane bagasse),0.006363424537298441
+substrate=wheat bran,0.006213406728763159
